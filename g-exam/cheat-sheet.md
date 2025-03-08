@@ -471,10 +471,28 @@ Amazonとかで、おススメがでてきたりするアレ
 
 - ILSVRC2012
   - ジェフリーヒントン率いるチーム(SuperVision)がAlexNet(8層)で圧倒的な成績を残す
+  - SVM（サポートベクターマシン）を中心とした技術が中心であった大会をCNN中心に置き換えたきっかけになった
+  - 活性化関数はReLUが導入された、Dropout技術が用いられた
+- ILSVRC2013
+  - NY大学のZFNetが優勝
+    - ZeilerとFerbusのイニシャルから取っている
+    - AlexNetの問題点を明確化し改良したCNN
 - ILSVRC2014
   - GoogleNet(22層)が優勝
+  - Inception moduleやGlobal Average Poolingという技術も導入
 - ILSVRC2015
   - ResNet(152層)が優勝
+  - Microsoft
+  - 初めて人間のエラー率5%を上回る精度を達成した記念すべき年
+  - バッチ正則化を本格的に導入して精度を上げたモデル
+  - ResNet以降、バッチ正則化が標準的に組み込まれるようになった
+- ILSVRC2016
+  - 優勝は香港中文大学の CUImage
+  - CU は Chinese University of Hong-Kong の CU をとっているものと思われる
+  - 原論文は "Crafting GBD-Net for Object Detection" です。こちらは既存技術の組み合わせ、つまりアンサンブル技術が中心となっており技術的に注目すべき点はないと言われています。
+- ILSVRC 2017
+  - ILSVRC の最終年の優勝は中国科学アカデミーの SENet です。原論文は " Squeeze-and-Excitation Networks " です。
+  - SENet の SE は Squeeze-and-Excitation からとっているものと思われます。このモデルで特徴的なのはSqueeze and Excitation Module というモジュールを既存関数に挿入することで精度をあげていることです。詳細は原論文を参照してください。
 
 ## 　ISI
 上記の大会で２位だった東大の機械。
